@@ -20,7 +20,7 @@
           <div class="builder-column column-2">
             <div class="div-7">
               Date:<br>
-              <input type="date" name="date" id="date">
+              <input type="date" name="date" id="today">
             </div>
           </div>
         </div>
@@ -125,3 +125,6 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+<script>let today = new Date().toISOString().substr(0, 10);
+  document.querySelector("#today").value = today;</script>
