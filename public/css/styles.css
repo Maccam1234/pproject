@@ -35,6 +35,11 @@ form{
     right: 5px;
     border: 20px red solid; 
   }
+  .menu{
+    height: 510px;
+    width: 170%;
+    border: 5px white solid;
+  }
   .btn{ 
     background: red; 
     width: 100px; 
